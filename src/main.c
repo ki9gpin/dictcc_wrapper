@@ -14,6 +14,11 @@
 #define LANG_DEFAULT "deen"
 #define BUFFER_MAX 256
 
+
+int getopt(int argc, char * const argv[], const char *optstring);
+extern char *optarg;
+extern int optind, opterr, optopt;
+
 char *help_text = \
     "\n"
     "  ----------------------------------------------------------\n"
